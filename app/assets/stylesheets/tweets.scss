@@ -9,6 +9,12 @@
 	}
 }
 
-.notifications:not(:last-child) {
+.notification:not(:last-child) {
 	margin-bottom: 0;
+}
+
+.field.is-grouped {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
 }
